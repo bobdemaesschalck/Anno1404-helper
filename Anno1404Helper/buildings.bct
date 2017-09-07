@@ -1,0 +1,283 @@
+(final)
+goods=fish
+name=fisherman's hut
+satisfies=285,200,500,909,1250,0,0
+(end)
+(final)
+goods=cider
+name=cider farm
+satisfies=500,340,340,652,1153,0,0
+(end)
+(final)
+goods=linen garments
+name=weaver's hut
+satisfies=0,0,476,1052,2500,0,0
+dependencies=hemp plantation
+dependencyDivisors=2
+(end)
+(final)
+goods=spices
+name=spice farm
+satisfies=0,0,500,909,1250,0,0
+(end)
+(final)
+goods=bread
+name=bakery
+satisfies=0,0,0,727,1025,0,0
+dependencies=mill
+dependencyDivisors=1
+(end)
+(final)
+goods=beer
+name=monastery brewery
+satisfies=0,0,0,625,1071,0,0
+dependencies=crop farm,monastery garden
+dependencyDivisors=1;1
+(end)
+(final)
+goods=leather jackets
+name=tannery
+satisfies=0,0,0,1428,2500,0,0
+dependencies=salt works,pig farm
+dependencyDivisors=0,5;2
+(end)
+(final)
+goods=books
+name=printing house
+satisfies=0,0,0,1875,3333,0,0
+dependencies=paper mill,indigo farm
+dependencyDivisors=0,5;2
+(end)
+(final)
+goods=candlesticks
+name=redsmith's workshop
+satisfies=0,0,0,2500,3333,0,0
+dependencies=copper smelter,candlemaker's workshop
+dependencyDivisors=0,75;1,5
+(end)
+(final)
+goods=meat
+name=butcher's shop
+satisfies=0,0,0,0,1136,0,0
+dependencies=salt works,cattle farm
+dependencyDivisors=0,5;2
+(end)
+(final)
+goods=wine
+name=wine press
+satisfies=0,0,0,0,1136,0,0
+dependencies=barrel cooperage,vineyard
+dependencyDivisors=1;3
+(end)
+(final)
+goods=fur coats
+name=furrier's workshop
+satisfies=0,0,0,0,1562,0,0
+dependencies=trapper's lodge,salt works
+dependencyDivisors=1;0,333333
+(end)
+(final)
+goods=glasses
+name=optitians workshop
+satisfies=0,0,0,0,1709,0,0
+dependencies=quartz quarry,copper smelter
+dependencyDivisors=0,75;0,75
+(end)
+(final)
+goods=brocade robes
+name=silk weaving mill
+satisfies=0,0,0,0,2112,0,0
+dependencies=silk plantation,gold smelter
+dependencyDivisors=2;1
+(end)
+(final)
+goods=dates
+name=date plantation
+satisfies=0,0,0,0,0,450,600
+(end)
+(final)
+goods=goat milk
+name=goat farm
+satisfies=0,0,0,0,0,436,666
+(end)
+(final)
+goods=carpets
+name=carpet workshop
+satisfies=0,0,0,0,0,909,1500
+dependencies=silk plantation,indigo farm
+dependencyDivisors=1;1
+(end)
+(final)
+goods=coffee
+name=roasting house
+satisfies=0,0,0,0,0,0,1000
+dependencies=coffee plantation
+dependencyDivisors=2
+(end)
+(final)
+goods=pearl necklaces
+name=pearl workshop
+satisfies=0,0,0,0,0,0,751
+dependencies=pearl fisher's hut
+dependencyDivisors=1
+(end)
+(final)
+goods=perfume
+name=perfumery
+satisfies=0,0,0,0,0,0,1250
+dependencies=rose nursery
+dependencyDivisors=3
+(end)
+(final)
+goods=marzipan
+name=confectioner's workshop
+satisfies=0,0,0,0,0,0,2453
+dependencies=almond plantation,sugar mill
+dependencyDivisors=2;1
+(end)
+(nonFinal)
+goods=hemp
+name=hemp plantation
+(end)
+(nonFinal)
+goods=flour
+name=mill
+dependencies=crop farm
+dependencyDivisors=2
+(end)
+(nonFinal)
+goods=wheat
+name=crop farm
+(end)
+(nonFinal)
+goods=herbs
+name=monastery garden
+(end)
+(nonFinal)
+goods=salt
+name=salt works
+dependencies=salt mine,charcoal burner's hut
+dependencyDivisors=1;1
+(end)
+(nonFinal)
+goods=brine
+name=salt mine
+(end)
+(nonFinal)
+goods=charcoal
+name=charcoal burner's hut
+(end)
+(nonFinal)
+goods=animal hides
+name=pig farm
+(end)
+(nonFinal)
+goods=paper
+name=paper mill
+dependencies=lumberjack's hut
+dependencyDivisors=2
+(end)
+(nonFinal)
+goods=wood
+name=lumberjack's hut
+(end)
+(nonFinal)
+goods=indigo
+name=indigo farm
+(end)
+(nonFinal)
+goods=brass
+name=copper smelter
+dependencies=copper mine,charcoal burner's hut,coal mine
+dependencyDivisors=1;0,666666;0,5
+(end)
+(nonFinal)
+goods=copper ore
+name=copper mine
+(end)
+(nonFinal)
+goods=coal
+name=coal mine
+(end)
+(nonFinal)
+goods=candles
+name=candlemaker's workshop
+dependencies=apiary,hemp plantation
+dependencyDivisors=2;0,5
+(end)
+(nonFinal)
+goods=beeswax
+name=apiary
+(end)
+(nonFinal)
+goods=cattle
+name=cattle farm
+(end)
+(nonFinal)
+goods=almonds
+name=almond plantation
+(end)
+(nonFinal)
+goods=barrels
+name=barrel cooperage
+dependencies=lumberjack's hut,iron smelter
+dependencyDivisors=1;0,5
+(end)
+(nonFinal)
+goods=iron
+name=iron smelter
+dependencies=ore mine,charcoal burner's hut
+dependencyDivisors=1;1
+(end)
+(nonFinal)
+goods=iron ore
+name=ore mine
+(end)
+(nonFinal)
+goods=coffee beans
+name=coffee plantation
+(end)
+(nonFinal)
+goods=gold ore
+name=gold mine
+(end)
+(nonFinal)
+goods=gold
+name=gold smelter
+dependencies=gold mine,charcoal burner's hut
+dependencyDivisors=1;1
+(end)
+(nonFinal)
+goods=pearls
+name=pearl fisher's hut
+(end)
+(nonFinal)
+goods=quartz
+name=quartz quarry
+(end)
+(nonFinal)
+goods=rose oil
+name=rose nursery
+(end)
+(nonFinal)
+goods=silk
+name=silk plantation
+(end)
+(nonFinal)
+goods=sugar canes
+name=sugar cane plantation
+(end)
+(nonFinal)
+goods=sugar
+name=sugar mill
+dependencies=sugar cane plantation
+dependencyDivisors=2
+(end)
+(nonFinal)
+goods=fur
+name=trapper's lodge
+(end)
+(nonFinal)
+goods=grapes
+name=vineyard
+(end)

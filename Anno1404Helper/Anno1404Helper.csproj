@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6851D16-574A-4D68-8379-5B547C64007E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Anno1404Helper</RootNamespace>
+    <AssemblyName>Anno1404Helper</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Superdoge\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <WebPage>publish.htm</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>B4976FEE145D4FFC5CC4FA66BEF00AF629CE59F3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Anno1404Helper_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Building.cs" />
+    <Compile Include="BuildingTypes\EndOfLineBuilding.cs" />
+    <Compile Include="BuildingTypes\WorkInProgressBuilding.cs" />
+    <Compile Include="Calculator.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IO\BuildingReader.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.en.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Anno1404Helper_TemporaryKey.pfx" />
+    <None Include="buildings.bct" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\iconCider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\iconFish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\iconLinenGarments.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\iconSpices.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\iconBread.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\iconBeer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\iconLeatherJackets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\iconBooks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\iconCandlesticks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\iconMeat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\iconAlmonds.png" />
+    <Content Include="Images\iconAnimalHides.png" />
+    <Content Include="Images\iconBarrels.png" />
+    <Content Include="Images\iconBeeswax.png" />
+    <Content Include="Images\iconBrass.png" />
+    <Content Include="Images\iconBrine.png" />
+    <Content Include="Images\iconBrocadeRobes.png" />
+    <Content Include="Images\iconCandles.png" />
+    <Content Include="Images\iconCarpets.png" />
+    <Content Include="Images\iconCattle.png" />
+    <Content Include="Images\iconCoal.png" />
+    <Content Include="Images\iconCoffee.png" />
+    <Content Include="Images\iconCoffeeBeans.png" />
+    <Content Include="Images\iconCopperOre.png" />
+    <Content Include="Images\iconDates.png" />
+    <Content Include="Images\iconFlour.png" />
+    <Content Include="Images\iconFurCoats.png" />
+    <Content Include="Images\iconFurs.png" />
+    <Content Include="Images\iconGlasses.png" />
+    <Content Include="Images\iconGold.png" />
+    <Content Include="Images\iconGrapes.png" />
+    <Content Include="Images\iconHemp.png" />
+    <Content Include="Images\iconHerbs.png" />
+    <Content Include="Images\iconIndigo.png" />
+    <Content Include="Images\iconIron.png" />
+    <Content Include="Images\iconIronOre.png" />
+    <Content Include="Images\iconMarzipan.png" />
+    <Content Include="Images\iconMilk.png" />
+    <Content Include="Images\iconPaper.png" />
+    <Content Include="Images\iconPearlNecklaces.png" />
+    <Content Include="Images\iconPearls.png" />
+    <Content Include="Images\iconPerfume.png" />
+    <Content Include="Images\iconQuartz.png" />
+    <Content Include="Images\iconRoseOil.png" />
+    <Content Include="Images\iconSalt.png" />
+    <Content Include="Images\iconSilk.png" />
+    <Content Include="Images\iconSugar.png" />
+    <Content Include="Images\iconSugarCane.png" />
+    <Content Include="Images\iconWheat.png" />
+    <Content Include="Images\iconWine.png" />
+    <Content Include="Images\iconWood.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

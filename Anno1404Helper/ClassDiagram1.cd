@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Anno1404Helper.Building" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAUAAAAAAAAAAAASAACAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Building.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.AlmondPlantation">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlmondPlantation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.Apiary">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Apiary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.Bakery">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Bakery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.BarrelCooperage">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>BarrelCooperage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.ButchersShop">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ButchersShop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.CandlemakersWorkshop">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CandlemakersWorkshop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.CarpetWorkshop">
+    <Position X="11" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CarpetWorkshop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.CattleFarm">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CattleFarm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.CharcoalBurnersHut">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CharcoalBurnersHut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.CiderFarm">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CiderFarm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.ClayPit">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClayPit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.CoalMine">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoalMine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.CoffeePlantation">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoffeePlantation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.ConfectionersWorkshop">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConfectionersWorkshop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.CopperMine">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CopperMine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.CopperSmelter">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CopperSmelter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.CropFarm">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CropFarm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.DatePlantation">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DatePlantation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.FishermanHut">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FishermanHut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.FurriersWorkshop">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>FurriersWorkshop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.GoatFarm">
+    <Position X="11" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GoatFarm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.GoldMine">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GoldMine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.GoldSmelter">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>GoldSmelter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.HempPlantation">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HempPlantation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.IndigoFarm">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndigoFarm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.LumberjacksHut">
+    <Position X="9.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LumberjacksHut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.Mill">
+    <Position X="11" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Mill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.MonasteryBrewery">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>MonasteryBrewery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.MonasteryGarden">
+    <Position X="2.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonasteryGarden.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.MosaicWorkshop">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MosaicWorkshop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.OptitiansWorkshop">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>OptitiansWorkshop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.OreMine">
+    <Position X="7.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OreMine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.PaperMill">
+    <Position X="9.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>PaperMill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.PearlFishersHut">
+    <Position X="11" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PearlFishersHut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.PearlWorkshop">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PearlWorkshop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.Perfumery">
+    <Position X="2.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Perfumery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.PigFarm">
+    <Position X="4" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PigFarm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.PrintingHouse">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>PrintingHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.QuartzQuarry">
+    <Position X="7.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuartzQuarry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.RedsmithsWorkshop">
+    <Position X="9.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>RedsmithsWorkshop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.RoastingHouse">
+    <Position X="11" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoastingHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.RoseNursery">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoseNursery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.SaltMine">
+    <Position X="2.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SaltMine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.SaltWorks">
+    <Position X="4" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>SaltWorks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.SilkPlantation">
+    <Position X="5.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SilkPlantation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.SilkWeavingMill">
+    <Position X="7.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>SilkWeavingMill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.SpiceFarm">
+    <Position X="9.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpiceFarm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.SugarCanePlantation">
+    <Position X="11" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SugarCanePlantation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.SugarMill">
+    <Position X="0.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SugarMill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.Tannery">
+    <Position X="2.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Tannery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.TrappersLodge">
+    <Position X="4" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TrappersLodge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.Vineyard">
+    <Position X="5.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vineyard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.WeaversHut">
+    <Position X="7.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>WeaversHut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.WinePress">
+    <Position X="9.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>WinePress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anno1404Helper.IronSmelter" Collapsed="true">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>IronSmelter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
